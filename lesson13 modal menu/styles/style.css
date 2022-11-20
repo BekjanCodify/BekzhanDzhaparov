@@ -1,0 +1,26 @@
+.text-center {
+    text-align: center;
+}
+.modal{
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+}
+.box{
+    font-family: sans-serif;
+    text-align: center;
+    align-items:center;
+    color: aliceblue;
+    border: none;
+   border-radius: 8px;
+   background-color: white;
+   box-shadow: 8px 5px 5px #aaaaaa;
+}
+.cancel{
+    cursor: pointer;
+    font-family: sans-serif;
+    text-align: center;
+    align-items: center;
+    margin:0 5px 0;
+    border-radius:50%;
+}

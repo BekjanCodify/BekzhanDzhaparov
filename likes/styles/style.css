@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,
+body{
+    width: 100%;
+    height: 100%;
+    line-height: 1;
+    font-size: 24px;
+    background-color: #333;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.insta{
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+
+}
+@media(max-width:1200px){
+    .main_content{
+        max-width:970px;;
+    }
+}
+@media(max-width:992px){
+    .main_content{
+        max-width:750px;;
+    }
+}
+@media(max-width:767px){
+    .main_content{
+        max-width:none;
+    }
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 30px;
+    background-color:purple;
+}
+main{
+    padding: 30px;
+    margin: 0;
+    flex: 1 1 auto;
+}
+.main_content{
+    width:20%;
+    height:20%;
+    position: absolute;
+    left: 40%;
+}
+.main_img{
+    margin: 0;
+}
+.main_content img{
+    width: 100%;
+    border-radius: 40px;
+}
+.main_like button{
+    background-color: #333;
+    border: #333;
+}
+.main_like img{
+    width:80px;
+    height:80px;
+    background-color: #333;
+}
+
+.counter_like input{
+    color: #fff;
+    font-size: 20px;
+    background-color: #333;
+    margin-left: 10px;
+    border: none;
+}
+footer{
+    background-color: purple;
+    padding: 30px;
+    text-align: center;
+}
